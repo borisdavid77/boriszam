@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/boriszam/static/css/main.fb6f629a.css",
-    "main.js": "/boriszam/static/js/main.0e46447d.js",
+    "main.css": "/boriszam/static/css/main.40552249.css",
+    "main.js": "/boriszam/static/js/main.2a43c7f5.js",
     "static/js/787.5dff559a.chunk.js": "/boriszam/static/js/787.5dff559a.chunk.js",
     "index.html": "/boriszam/index.html",
-    "main.fb6f629a.css.map": "/boriszam/static/css/main.fb6f629a.css.map",
-    "main.0e46447d.js.map": "/boriszam/static/js/main.0e46447d.js.map",
+    "main.40552249.css.map": "/boriszam/static/css/main.40552249.css.map",
+    "main.2a43c7f5.js.map": "/boriszam/static/js/main.2a43c7f5.js.map",
     "787.5dff559a.chunk.js.map": "/boriszam/static/js/787.5dff559a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fb6f629a.css",
-    "static/js/main.0e46447d.js"
+    "static/css/main.40552249.css",
+    "static/js/main.2a43c7f5.js"
   ]
 }
