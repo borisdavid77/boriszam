@@ -1,0 +1,47 @@
+.about{
+    display: flex;
+    flex-direction: column;
+    padding-top: 9rem;
+    padding-bottom: 4rem;
+    text-align: center;
+    align-items: center;
+}
+.about h1{
+    font-size: 1.8rem;
+}
+.about h2{
+    color: rgb(139, 138, 138);
+    margin-top: var(--mb-0-25);
+    margin-bottom: .1rem;
+}
+.about p{
+    font-size: 1.3rem;
+    padding: 20px;
+}
+.about img{
+    vertical-align: middle;
+    width: 25%;
+    border-radius: 50%;
+    background: var(--color-logo);
+}
+.about img:hover{
+    background: var(--hover-color);
+}
+
+@media screen and (min-width) {
+    .about div{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .about img{
+        vertical-align: middle;
+        width: 35%;
+        border-radius: 50%;
+        background: var(--color-logo);
+    }
+    .about img:hover{
+        background: var(--hover-color);
+    }
+}
