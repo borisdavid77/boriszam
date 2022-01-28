@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/boriszam/static/css/main.06fcd40f.css",
-    "main.js": "/boriszam/static/js/main.c21dd264.js",
+    "main.css": "/boriszam/static/css/main.f4961a3f.css",
+    "main.js": "/boriszam/static/js/main.adb8afd7.js",
     "static/js/787.5dff559a.chunk.js": "/boriszam/static/js/787.5dff559a.chunk.js",
+    "static/media/personal.png": "/boriszam/static/media/personal.826f9e19ff2a3922968b.png",
     "index.html": "/boriszam/index.html",
-    "main.06fcd40f.css.map": "/boriszam/static/css/main.06fcd40f.css.map",
-    "main.c21dd264.js.map": "/boriszam/static/js/main.c21dd264.js.map",
+    "main.f4961a3f.css.map": "/boriszam/static/css/main.f4961a3f.css.map",
+    "main.adb8afd7.js.map": "/boriszam/static/js/main.adb8afd7.js.map",
     "787.5dff559a.chunk.js.map": "/boriszam/static/js/787.5dff559a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.06fcd40f.css",
-    "static/js/main.c21dd264.js"
+    "static/css/main.f4961a3f.css",
+    "static/js/main.adb8afd7.js"
   ]
 }
