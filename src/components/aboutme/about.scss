@@ -1,11 +1,3 @@
-.about{
-    display: flex;
-    flex-direction: column;
-    padding-top: 9rem;
-    padding-bottom: 4rem;
-    text-align: center;
-    align-items: center;
-}
 .about h1{
     font-size: 1.8rem;
 }
@@ -16,25 +8,62 @@
 }
 .about p{
     font-size: 1.3rem;
-    padding: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
 }
 .about img{
     vertical-align: middle;
-    width: 25%;
+    width: 50%;
     border-radius: 50%;
     background: var(--color-logo);
 }
 .about img:hover{
     background: var(--hover-color);
+    transition: 500ms;
 }
 
-@media screen and (min-width) {
-    .about div{
-        width: 50%;
+@media screen and (min-width: 768px) {
+    .about{
+        align-items: center;
+        position: relative;
+        display: flex;
+        padding: 5rem; 
+        justify-content: center;
+    }
+    .flex-column{
+        margin-top: 10%;
+        width: 45%;
+        padding: 5px;
+    }
+    .div2{
+        display: flex;
+        justify-content: center;
+    }
+    .div3{
+        text-align: center;
+        width: 10%;
+        display: flex;
+        justify-content: center;
+    }
+    .div3 a,i{
+        color: var(--color-logo);
+        font-size: 2rem;
+    }
+    .div3 i:hover{
+        color: var(--hover-color);
     }
 }
 
 @media screen and (max-width: 767px) {
+    .about{
+        display: flex;
+        flex-direction: column;
+        padding-top: 9rem;
+        padding-bottom: 4rem;
+        text-align: center;
+        align-items: center;
+    }
     .about img{
         vertical-align: middle;
         width: 35%;
@@ -43,5 +72,27 @@
     }
     .about img:hover{
         background: var(--hover-color);
+    }
+    .about p{
+        font-size: 1.3rem;
+        padding-top: 20px;
+        padding-right: 20px;
+        padding-left: 20px;
+        padding-bottom: 20px;
+    }
+    .div3{
+        padding-top: 1rem;
+    }
+    .div3 li{
+        display: inline;
+        margin: .7rem;
+    }
+    .div3 i,a{
+        font-size: 1.5rem;
+        color: var(--color-logo);
+
+    }
+    .div3 i:hover{
+        color: var(--hover-color);
     }
 }
