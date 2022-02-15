@@ -1,9 +1,11 @@
+import React from "react"
 import "./works.scss";
 
-export default function Works() {
+function Works() {
   return (
-    <div>
-      <h1></h1>
+    <div className="about">
+      <h1>Known my most recent work projects</h1>
     </div>
   );
 }
+export default Works;

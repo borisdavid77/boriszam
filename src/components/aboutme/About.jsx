@@ -1,7 +1,8 @@
+import React from "react"
 import "./about.scss";
 import img from '../../assets/img/personal.png';
 
-export default function About() {
+function About() {
   return (
     <div className="about">
       <div className="flex-column">
@@ -18,17 +19,17 @@ export default function About() {
         <ul>
           <li>
             <a href="https://www.linkedin.com/in/boris-david-104b4121a/" target="_blank">
-              <i class="uil uil-linkedin"></i>
+              <i className="uil uil-linkedin"></i>
             </a>
           </li>
           <li>
             <a href="https://github.com/borisdavid77" target="_blank">
-              <i class="uil uil-github-alt"></i>
+              <i className="uil uil-github-alt"></i>
             </a>
           </li>
           <li>
             <a href="https://www.instagram.com/boris.zb98/" target="_blank">
-              <i class="uil uil-instagram"></i>
+              <i className="uil uil-instagram"></i>
             </a>
           </li>
         </ul>
@@ -36,3 +37,4 @@ export default function About() {
     </div>
   );
 }
+export default About;

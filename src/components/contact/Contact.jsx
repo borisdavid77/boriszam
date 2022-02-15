@@ -1,9 +1,11 @@
+import React from "react"
 import "./contact.scss"
 
-export default function Contact() {
+function Contact() {
   return (
-    <div>
-      <h1></h1>
+    <div className="about">
+      <h1>My contact is </h1>
     </div>
   );
 }
+export default Contact;
