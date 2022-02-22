@@ -24,15 +24,24 @@
 }
 
 @media screen and (min-width: 768px) {
+    .about2{
+        margin-top: 6rem;
+    }
     .about{
+        background: rgba(0, 0, 255, 0.040);
         align-items: center;
         position: relative;
         display: flex;
-        padding: 5rem; 
-        justify-content: center;
+        margin-bottom: 2rem;
+        margin-left: 5rem;
+        margin-right: 5rem;
+        padding: 5rem;
+        border-radius: 1.5rem 1.5rem 1.5rem 1.5rem;
+        transition: .3s;
     }
     .flex-column{
-        margin-top: 10%;
+        margin-top: 5%;
+        margin-bottom: 5%;
         width: 45%;
         padding: 5px;
     }
@@ -56,13 +65,21 @@
 }
 
 @media screen and (max-width: 767px) {
+    .about2{
+        margin-top: 6rem;
+    }
     .about{
+        margin-left: 1rem;
+        margin-right: 1rem;
+        background: rgba(0, 0, 255, 0.040);
+        border-radius: 1.5rem 1.5rem 1.5rem 1.5rem;
         display: flex;
         flex-direction: column;
-        padding-top: 9rem;
+        padding-top: 4rem;
         padding-bottom: 4rem;
         text-align: center;
         align-items: center;
+        margin-bottom: 2rem;
     }
     .about img{
         vertical-align: middle;

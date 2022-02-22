@@ -23,15 +23,9 @@ function Topbar() {
                             <i className="uil uil-file-plus-alt nav_icon"></i>Works
                         </a>
                     </li>
-                    <li className="nav_item">
-                        <a className="nav_link" href='/contact'>
-                            <i className="uil uil-message nav_icon"></i>Contact
-                        </a>
-                    </li>
                     </ul>
                     <i className="uil uil-times nav_close" id="nav-close"></i>
                 </div>
-
                 <div className="nav_btns">
                     <i className="uil uil-moon change-theme nav_toggle" id="theme-button"></i>
                     <div className="nav_toggle" id="nav-toggle">

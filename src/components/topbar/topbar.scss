@@ -129,16 +129,17 @@
       left: 0;
       width: 100%;
       background-color: var(--body-color);
-      padding: 2rem 1.5rem 4rem;
+      padding: 2rem 1.5rem 5rem;
       box-shadow: 0 -1px 4px rgba(187, 166, 166, 0.15);
       border-radius: 1.5rem 1.5rem 0 0 ;
       transition: .3s;
     }
+    .nav_list{
+      grid-template-columns: repeat(2, 1fr);
+      gap: 2rem;
+    }
   }
-  .nav_list{
-    grid-template-columns: repeat(3, 1fr);
-    gap: 2rem;
-  }
+  
   .nav_link{
     display: flex;
     flex-direction: column;
